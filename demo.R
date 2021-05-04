@@ -5,7 +5,7 @@
 #   GeneID should be ensemble ID
 #   vclass should contain three categories: 
 #   "syn", "LGD", "Dmis". Other annotation won't be recognized.
-# samplenumber shoud be an integer regarding the trio number
+# samplenumber shoud be an integer referring to the trio number
 cases = NULL # your input
 samplenumber = NULL # your input
 # load reference files
