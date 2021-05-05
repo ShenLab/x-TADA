@@ -7,7 +7,7 @@ It takes the expression level of diease risk genes as an orthogonal obervation t
     *1)	Harbor enriched damage de novo variants in probands compared to non-affected population. 
     *2)	Show high expression in corresponding organs.
   The model look like this:
-  <img src="https://github.com/ShenLab/x-TADA/blob/master/x-TADA.model.pdf">
+  <img src="https://github.com/ShenLab/x-TADA/blob/master/x-TADA.model.pdf?raw=true">
 ϕ_0 and ϕ_1 are hyperparameters to estimate. N is the observed damage variant number in patient cohorts. S is the expression level for each gene, in this CHD practice it is mouse E14.5 heart expression rank percentile.
 
 ## Environment:
