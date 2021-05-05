@@ -1,6 +1,5 @@
 # x-TADA
-x-TADA is a new model to integrate functional genomics data in identifying de novo risk genes.
-It takes the expression level of diease risk genes as an orthogonal obervation to the observation of damage variants. 
+x-TADA is a new model to integrate functional genomics data in identifying de novo risk genes. Inspired from TADA (He et al. 2013) and extTADA (Nguyen et al. 2017) but different. In additional to the observation of damage variants, it takes the expression level of genes during embryo development as another orthogonal obervation. 
 
   We hypothesized that disease risk genes should:
   
