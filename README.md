@@ -3,8 +3,8 @@ x-TADA is a new model to integrate functional genomics data in identifying de no
 
   We hypothesized that disease risk genes should:
   
-    1)	Harbor enriched damage de novo variants in probands compared to non-affected population. 
-    2)	Show high expression in corresponding organs.
+    1) Harbor enriched damage de novo variants in probands compared to non-affected population. 
+    2) Show high expression in corresponding organs.
     
   The model look like this:
   
