@@ -4,8 +4,8 @@ It takes the expression level of diease risk genes as an orthogonal obervation t
 
   We hypothesized that disease risk genes should:
   
-    *1)	Harbor enriched damage de novo variants in probands compared to non-affected population. 
-    *2)	Show high expression in corresponding organs.
+    1)	Harbor enriched damage de novo variants in probands compared to non-affected population. 
+    2)	Show high expression in corresponding organs.
     
   The model look like this:
   
@@ -31,15 +31,15 @@ It takes the expression level of diease risk genes as an orthogonal obervation t
   
   A list object with three attributes:
   
-    *1) mcmcDD
+    1) mcmcDD
   
-      **mcmcDD raw result
+      mcmcDD raw result
   
-    *2) pars0
+    2) pars0
   
-      **statistical summary of mcmcDD result
+      statistical summary of mcmcDD result
   
-    *3) dataFDR
+    3) dataFDR
   
-      **posterior probability, qvalues, etc for each gene.
+      posterior probability, qvalues, etc for each gene.
   
