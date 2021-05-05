@@ -1,30 +1,42 @@
-Environment:
-  
-  R>=3.6.0
-  
-  packages: stan, dplyr 
+# x-TADA
+x-TADA is a new model to integrate functional genomics data in identifying de novo risk genes.
+It takes the expression level of diease risk genes as an orthogonal obervation to the observation of damage variants. 
 
-Usage:
+  We hypothesized that disease risk genes should:
+  
+    *1)	Harbor enriched damage de novo variants in probands compared to non-affected population. 
+    *2)	Show high expression in corresponding organs.
+  The model look like this:
+  
+ϕ_0 and ϕ_1 are hyperparameters to estimate. N is the observed damage variant number in patient cohorts. S is the expression level for each gene, in this CHD practice it is mouse E14.5 heart expression rank percentile.
 
-  Source all the R files in model/ directory.
+## Environment:
   
-  Modify the demo.R with your input. See input format in demo.R
+  `R>=3.6.0`
   
-  Source demo.R.
+  `packages: stan, dplyr`
+
+## Usage:
+
+  Source all the R files in `model/` directory.
   
-Result:
+  Modify the `demo.R` with your input. See input format in demo.R
+  
+  Run `source(demo.R)`.
+  
+## Result:
   
   A list object with three attributes:
   
-  1) mcmcDD
+    *1) mcmcDD
   
-  mcmcDD raw result
+      **mcmcDD raw result
   
-  2) pars0
+    *2) pars0
   
-  statistical summary of mcmcDD result
+      **statistical summary of mcmcDD result
   
-  3) dataFDR
+    *3) dataFDR
   
-  posterior probability, qvalues, etc for each gene.
+      **posterior probability, qvalues, etc for each gene.
   
