@@ -1,5 +1,5 @@
 # your input here
-# cases should be a tab-separated table with at least following columns:
+# cases should be a dataframe object with at least following columns:
 # GeneID  vclass
 # where:
 #   GeneID should be ensemble ID
