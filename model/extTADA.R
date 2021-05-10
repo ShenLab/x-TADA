@@ -131,8 +131,8 @@ transformed parameters {
 
 ########################################
 #######De novo only
-DNextTADA <- readChar("model/extTADA.stan",
-                      file.info("model/extTADA.stan")$size)
+DNextTADA <- readChar(paste0(funr::get_script_path(), "extTADA.stan"),
+                      file.info(paste0(funr::get_script_path(), "extTADA.stan"))$size)
 
 
 ################CC model

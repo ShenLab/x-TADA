@@ -16,7 +16,7 @@ x-TADA is a new model to integrate functional genomics data in identifying de no
   
   `R>=3.6.0`
   
-  `packages: stan, dplyr`
+  `packages: stan, dplyr, funr`
 
 ## Usage:
 
